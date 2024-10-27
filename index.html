@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Home <img src="refresh-icon.png" alt="Refresh" class="refresh-icon" onclick="refreshPage()"></h2>
+        <form action="#">
+            <select name="" id="year">
+                <option value="">-- Select Year --</option>
+            </select>
+            <select name="" id="make">
+                <option value="">-- Select Make --</option>
+            </select>
+            <select name="" id="model">
+                <option value="">-- Select Model --</option>
+            </select>
+            <select name="" id="trim">
+                <option value="">-- Select Trim --</option>
+            </select>
+        </form>
+        <h2>Result:</h2>
+        <div id="resultInfo"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
